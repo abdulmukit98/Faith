@@ -7,8 +7,9 @@ try:
         print("listening")
         voice = listener.listen(mic)
         speech = listener.recognize_google(voice)
+        speech = speech.lower()
         print(speech)
-        
+
 except:
     pass
 
