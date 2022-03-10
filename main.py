@@ -14,6 +14,6 @@ try:
         speech = speech.lower()
         print(speech)
 
-except:
+except: 
     pass
 
